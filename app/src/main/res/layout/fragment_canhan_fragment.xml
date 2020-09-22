@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment.canhan_fragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:drawableLeft="@drawable/ic_baseline_queue_music_24"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/bungee_inline"
+            android:text="Nhạc cá nhân"
+            android:layout_marginBottom="20dp"
+            android:textSize="25dp">
+
+        </TextView>
+        <ListView
+            android:id="@+id/lvnhaccanhan"
+            android:layout_marginTop="50dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </ListView>
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/floatingthemnhac"
+            android:layout_gravity="bottom|right"
+            android:backgroundTint="#510D7A"
+            android:layout_margin="10dp"
+            app:fabSize="normal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </com.google.android.material.floatingactionbutton.FloatingActionButton>
+
+
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+</FrameLayout>
